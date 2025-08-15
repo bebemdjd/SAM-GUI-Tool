@@ -1,6 +1,7 @@
 # SAM GUI Tool - Interactive Image Segmentation Interface
 
 A user-friendly graphical interface for the Segment Anything Model (SAM) that enables interactive image segmentation with real-time visualization and multiple operation modes.
+<img width="1195" height="826" alt="image" src="https://github.com/user-attachments/assets/9cabf412-c522-43d1-a6c9-44e6021ec19e" />
 
 ![SAM GUI Interface](https://img.shields.io/badge/GUI-Tkinter-blue) ![Python](https://img.shields.io/badge/Python-3.8+-green) ![SAM](https://img.shields.io/badge/Model-SAM-orange)
 
@@ -195,12 +196,12 @@ Choose from three operation modes and start segmenting!
 
 ## 📋 Quick Reference
 
-| Action | Steps |
+| 操作 | 步骤 |
 |--------|-------|
-| **Basic Segmentation** | Load Model → Load Image → Point Mode → Click object → Generate Mask |
-| **Quick Rectangle** | Load Model → Load Image → Box Mode → Drag rectangle |
-| **Auto Discovery** | Load Model → Load Image → Auto Mode → Generate Mask |
-| **Save Results** | Generate Mask → Save Mask (binary) or Save Overlay (visual) |
-| **Start Over** | Click Clear → Add new points/box → Generate Mask |
+| **基础分割** | 加载模型 → 加载图像 → 点击模式 → 点击对象 → 生成mask |
+| **快速框选** | 加载模型 → 加载图像 → 框选模式 → 拖拽矩形框 |
+| **自动发现** | 加载模型 → 加载图像 → 自动分割 → 生成mask |
+| **保存结果** | 生成mask → 保存mask（二进制）或 保存叠加图（可视化） |
+| **重新开始** | 点击清除 → 添加新的点/框 → 生成mask |
 
-**💡 Pro Tip**: The log panel shows exactly what's happening behind the scenes - check it if something isn't working as expected!
+**💡 专业提示**: 日志信息面板会显示后台具体操作过程 - 如果遇到问题请检查日志信息！
